@@ -24,6 +24,7 @@ public class ChatGUI extends JFrame {
 		chatWindow.setEditable(false);
 		scroll.setPreferredSize(new Dimension(200, 300));
 		vertical = scroll.getVerticalScrollBar();
+		//Hello
 		cp.add(scroll);
 		
 		chatMessage = new JTextArea();
